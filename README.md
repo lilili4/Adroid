@@ -414,7 +414,7 @@ actionmode的实现主要是在实现 AbsListView.MultiChoiceModeListener 接口
 
 
 
-
+![](https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1587918018&di=51fe11ed13f365f1040108d58e6d6efb&src=http://hiphotos.baidu.com/nuomi/pic/item/0b55b319ebc4b745fe5cba57c7fc1e178b8215a2.jpg)
 
 
 
