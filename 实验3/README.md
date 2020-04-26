@@ -1,5 +1,3 @@
-- [实验工程代码](https://github.com/lilili4/Android/tree/master/实验3/UI)
-
 ## simpleAdapter实现：
 
 先定义一个ListView,他就相当于总体的空骨架
@@ -66,7 +64,7 @@ SimpleAdapter simpleAdapter = new SimpleAdapter(this, listItems,
 
 #### 效果：
 
-![](D:/Git/Adroid_repository/images/实验3/1.png)
+![](../images/实验3/1.png)
 
 然后接着要为这死的身躯注入灵魂，给他设置监听器，这样它就活起来了，可以向应用户的操作：
 
@@ -121,11 +119,11 @@ SimpleAdapter simpleAdapter = new SimpleAdapter(this, listItems,
 
 选中时：
 
-![](D:/Git/Adroid_repository/images/实验3/2.png)
+![](../images/实验3/2.png)
 
 点击时：
 
-![](D:/Git/Adroid_repository/images/实验3/3.png)
+![](../images/实验3/3.png)
 
 
 
@@ -200,7 +198,7 @@ SimpleAdapter simpleAdapter = new SimpleAdapter(this, listItems,
 
 表格张这个样
 
-![](D:/Git/Adroid_repository/images/实验3/4.png)
+![](../images/实验3/4.png)
 
 几个事件响应函数：
 
@@ -241,9 +239,9 @@ public class MainActivity extends AppCompatActivity {
 
 合体后：
 
-![](D:/Git/Adroid_repository/images/实验3/5.png)
+![](../images/实验3/5.png)
 
-![](D:/Git/Adroid_repository/images/实验3/6.png)
+![](../images/实验3/6.png)
 
 找了很久不知道他那两个积极和消极按钮按怎么给他们设置样式。
 
@@ -298,24 +296,23 @@ public boolean onCreateOptionsMenu(Menu menu)
         colorMenu.add(0, FONT_BLACK, 0, "黑色");
         return super.onCreateOptionsMenu(menu);
     }
-
 ```
 
 效果：
 
-![](D:/Git/Adroid_repository/images/实验3/7.png)
+![](../images/实验3/7.png)
 
 设置字体大小：
 
-![](D:/Git/Adroid_repository/images/实验3/8.png)
+![](../images/实验3/8.png)
 
 设置字体：
 
-![](D:/Git/Adroid_repository/images/实验3/9.png)
+![](../images/实验3/9.png)
 
 toast'提示：
 
-![](D:/Git/Adroid_repository/images/实验3/10.png)
+![](../images/实验3/10.png)
 
 
 
@@ -326,6 +323,7 @@ actionmode的实现主要是在实现 AbsListView.MultiChoiceModeListener 接口
 具体代码：
 
 ```java
+
 //设置listview允许多选模式
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
         listView.setMultiChoiceModeListener(new AbsListView.MultiChoiceModeListener() {
@@ -401,16 +399,15 @@ actionmode的实现主要是在实现 AbsListView.MultiChoiceModeListener 接口
                 return false;
             }
         });
-
 ```
 
 列表就是和第一个的实现完全一样的了，实现效果如下：
 
-![](D:/Git/Adroid_repository/images/实验3/11.png)
+![](../images/实验3/11.png)
 
 点击长按列表项：
 
-![](D:/Git/Adroid_repository/images/实验3/12.png)
+![](../images/实验3/12.png)
 
 
 

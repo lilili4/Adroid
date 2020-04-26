@@ -1,0 +1,2 @@
+include ':SimpleAdapter', ':alertdialog', ':optionsmenu', ':ContextMenu'
+rootProject.name='Ui'
