@@ -66,7 +66,7 @@ SimpleAdapter simpleAdapter = new SimpleAdapter(this, listItems,
 
 #### 效果：
 
-![](D:/Git/Adroid_repository/images/实验3/1.png)
+![](https://img-blog.csdnimg.cn/20200427003342360.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 然后接着要为这死的身躯注入灵魂，给他设置监听器，这样它就活起来了，可以向应用户的操作：
 
@@ -121,11 +121,11 @@ SimpleAdapter simpleAdapter = new SimpleAdapter(this, listItems,
 
 选中时：
 
-![](D:/Git/Adroid_repository/images/实验3/2.png)
+![](https://img-blog.csdnimg.cn/20200427003355541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 点击时：
 
-![](D:/Git/Adroid_repository/images/实验3/3.png)
+![](https://img-blog.csdnimg.cn/2020042700341066.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 
 
@@ -200,7 +200,7 @@ SimpleAdapter simpleAdapter = new SimpleAdapter(this, listItems,
 
 表格张这个样
 
-![](D:/Git/Adroid_repository/images/实验3/4.png)
+![](https://img-blog.csdnimg.cn/20200427003428454.png)
 
 几个事件响应函数：
 
@@ -241,9 +241,9 @@ public class MainActivity extends AppCompatActivity {
 
 合体后：
 
-![](D:/Git/Adroid_repository/images/实验3/5.png)
+![](https://img-blog.csdnimg.cn/20200427003448730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
-![](D:/Git/Adroid_repository/images/实验3/6.png)
+![](https://img-blog.csdnimg.cn/20200427003502837.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 找了很久不知道他那两个积极和消极按钮按怎么给他们设置样式。
 
@@ -298,24 +298,23 @@ public boolean onCreateOptionsMenu(Menu menu)
         colorMenu.add(0, FONT_BLACK, 0, "黑色");
         return super.onCreateOptionsMenu(menu);
     }
-
 ```
 
 效果：
 
-![](D:/Git/Adroid_repository/images/实验3/7.png)
+![](https://img-blog.csdnimg.cn/20200427003515133.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 设置字体大小：
 
-![](D:/Git/Adroid_repository/images/实验3/8.png)
+![](https://img-blog.csdnimg.cn/20200427003530856.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 设置字体：
 
-![](D:/Git/Adroid_repository/images/实验3/9.png)
+![](https://img-blog.csdnimg.cn/20200427003543295.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 toast'提示：
 
-![](D:/Git/Adroid_repository/images/实验3/10.png)
+![](https://img-blog.csdnimg.cn/20200427003552502.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 
 
@@ -401,20 +400,19 @@ actionmode的实现主要是在实现 AbsListView.MultiChoiceModeListener 接口
                 return false;
             }
         });
-
 ```
 
 列表就是和第一个的实现完全一样的了，实现效果如下：
 
-![](D:/Git/Adroid_repository/images/实验3/11.png)
+![](https://img-blog.csdnimg.cn/20200427003603350.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 点击长按列表项：
 
-![](D:/Git/Adroid_repository/images/实验3/12.png)
+![](https://img-blog.csdnimg.cn/20200427003618503.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21hc3Rlcl9fYm95,size_16,color_FFFFFF,t_70)
 
 
 
-![](https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1587918018&di=51fe11ed13f365f1040108d58e6d6efb&src=http://hiphotos.baidu.com/nuomi/pic/item/0b55b319ebc4b745fe5cba57c7fc1e178b8215a2.jpg)
+
 
 
 
