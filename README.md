@@ -1,4 +1,4 @@
-- [实验工程代码](https://github.com/lilili4/Android/tree/master/实验3/UI)
+- [实验工程代码](https://github.com/lilili4/Android/tree/master/实验3/Ui)
 
 ## simpleAdapter实现：
 
