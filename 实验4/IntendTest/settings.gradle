@@ -1,0 +1,2 @@
+include ':Intent_test', ':mywebview'
+rootProject.name='IntendTest'

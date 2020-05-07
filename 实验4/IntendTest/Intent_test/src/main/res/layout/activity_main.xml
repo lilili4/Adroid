@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 标题栏 -->
+    <TableRow
+        android:background="@color/blue"
+        android:paddingStart="12dp"
+        android:paddingVertical="5dp">
+        <TextView android:id="@+id/titleimage"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="my web searching"
+            android:textSize="30sp"
+            />
+    </TableRow>
+
+    <TableRow android:paddingStart="12dp">
+        <!-- 输入用户名的文本框 -->
+        <EditText android:id="@+id/target_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input you URL"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:ems="14"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <!-- 水平的按钮 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="clear"
+            android:textSize="22sp"
+            android:onClick="clear"/>
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="search"
+            android:textSize="22sp"
+            android:onClick="searching"/>
+    </LinearLayout>
+</TableLayout>
